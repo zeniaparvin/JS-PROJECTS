@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+ }
+body {
+height: 100vh;
+width: 100%;
+font-family:'Times New Roman', Times, serif;
+}
+  
+span {
+    display: block;
+}
+
+.boxes {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+} 
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid rgb(60, 60, 124) 3px;
+    display: inline-block;
+}
+
+#white{
+    background:#fff;
+}
+#brown{
+    background:#a52a2a;
+}
+#green{
+    background:#008000; 
+}
+#grey{
+    background:#00000061;
+}
+#seagreen{
+    background:#2e8b57;
+}

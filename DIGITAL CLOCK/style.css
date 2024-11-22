@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Orbitron:wght@400..900&family=Silkscreen:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A5B68D;
+    color: #53c02e;
+    font-family: 'Silkscreen';
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #3C3D37;
+    border: .3rem solid #DBD3D3;
+    position: relative; 
+    box-shadow: 3px 3px 7px 1px #262623, inset 3px 3px 7px 1px #262623;
+}
+#local{
+    font-size: 1.8rem;
+}
+
+#time {
+    letter-spacing: .3rem;
+    font-size: -1.5rem;
+    margin: 10px 10px 0px 10px;
+    padding: 10px 20px 10px 20px;
+}
